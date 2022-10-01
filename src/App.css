@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: 'Helvetica';
+}
+
+.blueGradient {
+background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.ButtonGradient {
+  background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+}

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .Button {
+  @apply relative overflow-hidden duration-500 before:absolute before:-z-10 before:animate-spin
+} */
+html {
+  height: 100vh;
+}
+
+#root {
+  height: 100vh;
+}
